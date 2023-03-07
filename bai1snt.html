@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SNT</title>
+</head>
+<body>
+<script>
+    let n =parseInt(prompt('nhap so'));
+    function isPrime(number){
+        if(number<2)
+           return  alert(number+ 'ko la SNT');
+        else{
+            for(let i=2; i < number ;i++){
+                if(number % i == 0)
+                 return  alert(number +'ko la SNT');
+            }
+        }
+        return alert(number +'la snt');
+        }
+
+    isPrime(n);
+</script>
+
+</body>
+</html>
