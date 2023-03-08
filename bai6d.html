@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function check(a, b, c) {
+     let min = a;
+     if(min>b){
+         if(b <c){
+             return b;
+         }else {
+             return c;
+         }
+     }
+     else if(min>c){
+         return c;}
+     else
+         return a;
+    }
+  console.log(check(5,8,3));
+</script>
+</body>
+</html>
